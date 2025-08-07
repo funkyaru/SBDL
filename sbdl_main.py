@@ -15,3 +15,4 @@ if __name__ == '__main__':
     logger = Log4j(spark)
 
     logger.info("Finished Creating Spark Session!")
+    logger.info("Another Message")
