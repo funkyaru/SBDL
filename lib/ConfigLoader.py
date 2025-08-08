@@ -7,7 +7,7 @@ def get_config(env):
     config.read("conf/sbdl.conf")
     conf = {}
     for (key,val) in config.items(env):
-        config[key] = val
+        conf[key] = val
 
     return conf
 
